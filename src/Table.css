@@ -1,0 +1,23 @@
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .book-table th, .book-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .book-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .book-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .book-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
